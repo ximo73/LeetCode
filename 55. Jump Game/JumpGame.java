@@ -1,11 +1,11 @@
 class JumpGame {
 
     public boolean sumar(int[] nums, int index, int[] desdeAca){
-        //Exploro todos los posibles saltos desde cada indice
         if(index >= nums.length-1) return true;
-
+        
         if(desdeAca[index] != -1) return desdeAca[index] == 0? false : true;
-
+        
+        //Exploro todos los posibles saltos desde cada indice
         for(int i = 1; i <= nums[index]; i++){
             if(sumar(nums, index + i, desdeAca)){
                 desdeAca[index] = 1;
