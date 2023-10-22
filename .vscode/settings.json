@@ -5,7 +5,9 @@
         "55. Jump Game",
         "341. Flatten Nested List Iterator",
         "2390. Removing Stars From a String",
-        "2215. Find the Difference of Two Arrays"
+        "2215. Find the Difference of Two Arrays",
+        "151. Reverse Words in a String",
+        "724. Find Pivot Index"
     ],
     "java.debug.settings.onBuildFailureProceed": true
 }
