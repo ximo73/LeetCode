@@ -4,6 +4,8 @@
         "88. Merge Sorted Array",
         "55. Jump Game",
         "341. Flatten Nested List Iterator",
-        "2390. Removing Stars From a String"
-    ]
+        "2390. Removing Stars From a String",
+        "2215. Find the Difference of Two Arrays"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }

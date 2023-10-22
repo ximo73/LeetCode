@@ -5,11 +5,11 @@ class RemovingStarsFromaString {
         Stack<Character> stack = new Stack<Character>();
         Stack<Character> aux = new Stack<Character>();
         String res = "";
+        
         for (int i = s.length()-1; i >= 0; i--) {
             stack.push(s.charAt(i));
         }
         
-        //se bugea cuando hay 2 ** seguidos
         while (!stack.isEmpty() ) {
             if (stack.peek() == '*') {
                 aux.pop();
@@ -18,11 +18,7 @@ class RemovingStarsFromaString {
             }	
             stack.pop();
         }
-        /* 
-        for(int i = stack.size() - 1; i >= 0; i--){
-            res += stack.get(i);
-        }
-        */
+
         for(int i = 0; i < aux.size(); i++){
             res += aux.get(i);
         }
