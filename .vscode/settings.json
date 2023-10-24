@@ -2,12 +2,13 @@
     "java.project.sourcePaths": [
         "933. Number of Recent Calls",
         "88. Merge Sorted Array",
+        "724. Find Pivot Index",
         "55. Jump Game",
         "341. Flatten Nested List Iterator",
         "2390. Removing Stars From a String",
         "2215. Find the Difference of Two Arrays",
         "151. Reverse Words in a String",
-        "724. Find Pivot Index"
+        "714. Best Time to Buy and Sell Stock with Transaction Fee"
     ],
     "java.debug.settings.onBuildFailureProceed": true
 }
